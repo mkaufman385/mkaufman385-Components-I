@@ -24,7 +24,7 @@ function menuMaker(linksArray) {
     menuList.appendChild(link);
   });
 
-  const hamMEnu = document.querySelector(".menu-button");
+  const hamMenu = document.querySelector(".menu-button");
 
   hamMenu.addEventListener("click", () => {
     menuWrapper.classList.toggle("menu--open");
